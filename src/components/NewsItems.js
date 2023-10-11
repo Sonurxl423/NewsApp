@@ -17,11 +17,10 @@ export class NewsItems extends Component {
             alt="..."
           />
           <span
-            class="position-absolute top-0 translate-middle badge rounded-pill bg-primary"
+            className="position-absolute top-0 translate-middle badge rounded-pill bg-primary"
             style={{ left: "90%", zIndex: "1" }}
           >
             {source}
-            <span class="visually-hidden">unread messages</span>
           </span>
           <div className="card-body">
             <h5 className="card-title">{title} ...</h5>
