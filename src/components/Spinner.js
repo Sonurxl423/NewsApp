@@ -1,12 +1,17 @@
-import React, { Component } from 'react'
-import TransparentSpinner from './TransparentSpinner.gif'
+import React from "react";
+import TransparentSpinner from "./TransparentSpinner.gif";
 
-export default class Spinner extends Component {
-  render() {
-    return (
-      <div className='text-center'>
-        <img src={TransparentSpinner} width={"100px"} height={"100px"} alt="loading" />
-      </div>
-    )
-  }
-}
+const Spinner = () => {
+  return (
+    <div className="text-center">
+      <img
+        src={TransparentSpinner}
+        width={"100px"}
+        height={"100px"}
+        alt="loading"
+      />
+    </div>
+  );
+};
+
+export default Spinner ;
